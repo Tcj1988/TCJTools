@@ -18,6 +18,7 @@
 #import "TCJRequestEngine.h"
 #import "TCJRequestManager.h"
 #import "TCJURLRequest.h"
+#import "NSDate+TCJExtension.h"
 #import "TCJUtils.h"
 
 FOUNDATION_EXPORT double TCJToolsVersionNumber;
