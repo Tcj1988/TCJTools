@@ -1,17 +1,48 @@
 PODS:
-  - TCJTools (0.0.1):
-    - TCJTools/TCJUtils (= 0.0.1)
-  - TCJTools/TCJUtils (0.0.1)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - TCJTools (0.0.2):
+    - AFNetworking (~> 4.0.1)
+    - TCJTools/TCJCategory (= 0.0.2)
+    - TCJTools/TCJNetWorking (= 0.0.2)
+    - TCJTools/TCJTimeCountDown (= 0.0.2)
+    - TCJTools/TCJUtils (= 0.0.2)
+  - TCJTools/TCJCategory (0.0.2):
+    - AFNetworking (~> 4.0.1)
+  - TCJTools/TCJNetWorking (0.0.2):
+    - AFNetworking (~> 4.0.1)
+  - TCJTools/TCJTimeCountDown (0.0.2):
+    - AFNetworking (~> 4.0.1)
+  - TCJTools/TCJUtils (0.0.2):
+    - AFNetworking (~> 4.0.1)
 
 DEPENDENCIES:
   - TCJTools (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   TCJTools:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TCJTools: 4f1207c88de785fad415e767313179efc7ad5445
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  TCJTools: 7f91036e54b9555c2291f987ad85a43e499bac32
 
 PODFILE CHECKSUM: 00c8522f16eaf88232316293ad5ce748ecee3786
 
