@@ -40,7 +40,7 @@
 		04412543ACE934D940F71201 /* Pods-TCJTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCJTools_Example.release.xcconfig"; path = "Target Support Files/Pods-TCJTools_Example/Pods-TCJTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		25A7834303F8DCA9738A80EB /* Pods-TCJTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCJTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-TCJTools_Example/Pods-TCJTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		37FA4D13D7619D5F48FC2373 /* Pods-TCJTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCJTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TCJTools_Tests/Pods-TCJTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3C58540A5BB060C58E0AB737 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3C58540A5BB060C58E0AB737 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		58F0AF24D5639E63953BC1FF /* Pods-TCJTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCJTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-TCJTools_Tests/Pods-TCJTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TCJTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCJTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,11 +62,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7428C38E747851A1BD4FB486 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7428C38E747851A1BD4FB486 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		79DD5CE49935AD7A7E4A2DD6 /* Pods_TCJTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCJTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E536B1DE8BE73A407A09BD27 /* Pods_TCJTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCJTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9BB2D6C3CEE4F99865583B7 /* TCJTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TCJTools.podspec; path = ../TCJTools.podspec; sourceTree = "<group>"; };
+		E9BB2D6C3CEE4F99865583B7 /* TCJTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TCJTools.podspec; path = ../TCJTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				37FA4D13D7619D5F48FC2373 /* Pods-TCJTools_Tests.debug.xcconfig */,
 				58F0AF24D5639E63953BC1FF /* Pods-TCJTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

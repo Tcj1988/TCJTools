@@ -1,0 +1,18 @@
+PODS:
+  - TCJTools (0.0.1):
+    - TCJTools/TCJUtils (= 0.0.1)
+  - TCJTools/TCJUtils (0.0.1)
+
+DEPENDENCIES:
+  - TCJTools (from `../`)
+
+EXTERNAL SOURCES:
+  TCJTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TCJTools: 4f1207c88de785fad415e767313179efc7ad5445
+
+PODFILE CHECKSUM: 00c8522f16eaf88232316293ad5ce748ecee3786
+
+COCOAPODS: 1.10.1

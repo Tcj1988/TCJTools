@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TCJTools'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of TCJTools.'
 
 # This description is used to generate tags and improve search results.
@@ -21,16 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/310537065@qq.com/TCJTools'
+  s.homepage         = 'https://github.com/Tcj1988/TCJTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '310537065@qq.com' => '310537065@qq.com' }
-  s.source           = { :git => 'https://github.com/310537065@qq.com/TCJTools.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Tcj1988/TCJTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TCJTools/Classes/**/*'
+  #s.source_files = 'TCJTools/Classes/**/*'
+  s.subspec 'TCJUtils' do |st|
+    st.source_files = "TCJTools/TCJUtils/**/*.{h,m}"
+  end
   
   # s.resource_bundles = {
   #   'TCJTools' => ['TCJTools/Assets/*.png']

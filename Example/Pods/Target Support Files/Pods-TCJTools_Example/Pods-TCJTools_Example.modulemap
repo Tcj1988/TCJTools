@@ -1,0 +1,6 @@
+framework module Pods_TCJTools_Example {
+  umbrella header "Pods-TCJTools_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
