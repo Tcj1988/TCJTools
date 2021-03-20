@@ -1,6 +1,6 @@
 {
   "name": "TCJTools",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "A short description of TCJTools.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Tcj1988/TCJTools",
@@ -13,11 +13,12 @@
   },
   "source": {
     "git": "https://github.com/Tcj1988/TCJTools.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "9.0"
   },
+  "frameworks": "UIKit",
   "dependencies": {
     "AFNetworking": [
       "~> 4.0.1"
@@ -41,7 +42,7 @@
       "source_files": "TCJTools/TCJTimeCountDown/**/*.{h,m}",
       "resource_bundles": {
         "TCJTools": [
-          "TCJTools/TCJTimeCountDown/*.xcassets"
+          "TCJTools/TCJTimeCountDown/**/*"
         ]
       }
     }

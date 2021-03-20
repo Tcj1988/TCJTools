@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TCJTools'
-  s.version          = '0.0.2'
+  s.version          = '0.0.4'
   s.summary          = 'A short description of TCJTools.'
 
 # This description is used to generate tags and improve search results.
@@ -46,7 +46,7 @@ TODO: Add long description of the pod here.
   s.subspec 'TCJTimeCountDown' do |st|
     st.source_files = "TCJTools/TCJTimeCountDown/**/*.{h,m}"
     st.resource_bundles = {
-      'TCJTools' => ['TCJTools/TCJTimeCountDown/*.xcassets']
+      'TCJTools' => ['TCJTools/TCJTimeCountDown/**/*']
     }
   end
   
@@ -55,6 +55,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   s.dependency 'AFNetworking', '~> 4.0.1'
 end

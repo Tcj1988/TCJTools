@@ -14,19 +14,19 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - TCJTools (0.0.2):
+  - TCJTools (0.0.4):
     - AFNetworking (~> 4.0.1)
-    - TCJTools/TCJCategory (= 0.0.2)
-    - TCJTools/TCJNetWorking (= 0.0.2)
-    - TCJTools/TCJTimeCountDown (= 0.0.2)
-    - TCJTools/TCJUtils (= 0.0.2)
-  - TCJTools/TCJCategory (0.0.2):
+    - TCJTools/TCJCategory (= 0.0.4)
+    - TCJTools/TCJNetWorking (= 0.0.4)
+    - TCJTools/TCJTimeCountDown (= 0.0.4)
+    - TCJTools/TCJUtils (= 0.0.4)
+  - TCJTools/TCJCategory (0.0.4):
     - AFNetworking (~> 4.0.1)
-  - TCJTools/TCJNetWorking (0.0.2):
+  - TCJTools/TCJNetWorking (0.0.4):
     - AFNetworking (~> 4.0.1)
-  - TCJTools/TCJTimeCountDown (0.0.2):
+  - TCJTools/TCJTimeCountDown (0.0.4):
     - AFNetworking (~> 4.0.1)
-  - TCJTools/TCJUtils (0.0.2):
+  - TCJTools/TCJUtils (0.0.4):
     - AFNetworking (~> 4.0.1)
 
 DEPENDENCIES:
@@ -42,7 +42,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  TCJTools: 7f91036e54b9555c2291f987ad85a43e499bac32
+  TCJTools: c1c262a09b3863590362000960c1f2f633a87220
 
 PODFILE CHECKSUM: 00c8522f16eaf88232316293ad5ce748ecee3786
 
